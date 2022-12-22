@@ -1,0 +1,26 @@
+let array=[
+    {
+        firstaname:"aravindh",
+        lastname:"kumar",
+    },
+    {
+        firstaname:"ms",
+        lastname:"dhoni",
+    },
+    {
+        firstaname:"suresh",
+        lastname:"raina",
+    },
+    {
+        firstaname:"virat",
+        lastname:"kholi",
+    },
+    {
+        firstaname:"Rohith",
+        lastname:"sharma",
+    }
+]
+console.log(array);
+array.map(function(value){
+    console.log(value.lastname);
+})
